@@ -29,7 +29,6 @@ This project explores Positive vs. Negative Hashtag trends.
 
 - **Source:** Kaggle: Social Media Sentiments Analysis Dataset (https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset/data)
 - **Description:** Hashtags, Sentiment, Likes, Retweets, User, Timestamp, Text
-- **License:**
 
 ---
 
@@ -39,6 +38,12 @@ Analysis was conducted in Python using Jupyter Notebook.
 
 Main Analysis Methods:
 1. Open code/social_media_hashtags.ipynb
+2. Run all cells in order
+    - Load and inspect data set 
+    - Clean Data (Removing unnecessary parts)
+    - Impute missing data
+    - Rename Columns
+    - Create Data Visualization
 
 
 ---
@@ -52,8 +57,8 @@ According to the comparison of montly proportion of days of precipitatin between
 ## Authors
 
 - Jimmy Nam - [@Jimmynam0103](https://github.com/Jimmynam0103/social_media_hastag.git)\
-- Edwin Okwor - @kembaoak
-- Anushka Naidu Maddisetty
+- Edwin Okwor - [@kembaoak]
+- Anushka Naidu [@Maddisetty]
 
 ---
 
