@@ -56,7 +56,7 @@ According to the comparison of montly proportion of days of precipitatin between
 
 ## Authors
 
-- Jimmy Nam - [@Jimmynam0103](https://github.com/Jimmynam0103/social_media_hastag.git)\
+- Jimmy Nam - [@Jimmynam0103](https://github.com/Jimmynam0103/social_media_hastag.git)
 - Edwin Okwor - [@kembaoak]
 - Anushka Naidu [@Maddisetty]
 
