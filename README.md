@@ -3,7 +3,7 @@
 
 Purpose: This project aims to investigate how the sentiment expressed in a social media posts influences audience engagement.
 By analyzing posts labeled as Positive, Neutral, or Negative, we seek to determine whether sentiment has a measurable impact on interaction metrics such likes and retweets. For simplicity, we combine these metrics into single engagmement variable as our primary response measure. Ultimately, the overarching goal is to provide insights into how emotional tone of a post can inform strategies for improving engagement and optimizing social media content performance.
----
+
 
 ## Project Overview
 
