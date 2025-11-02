@@ -90,7 +90,7 @@ Overall, these results suggest that positive emotional tone leads to higher audi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the full license [here](https://github.com/Jimmynam0103/Hashtag_Engagement/blob/main/License).
 
 ---
 
