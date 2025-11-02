@@ -1,15 +1,26 @@
-# Hashtags Project
+# Analyzing Hashtag Sentiments and Engagement on Social Media  
+### Understanding How Emotional Tone Influences Audience Interaction  
 
-> Analyze and compare positive Hashtag and Negative Hashtag
+Purpose: This project aims to explore how the emotional tone of social media posts influences audience engagement.  
+By analyzing posts labeled as *Positive*, *Neutral*, and *Negative*, the goal is to determine whether sentiment affects interaction metrics such as *likes* and *retweets*. The findings provide insights into how emotional content shapes user behavior and engagement trends on social media platforms.  
+
 ---
 
 ## Project Overview
 
-This project explores Positive vs. Negative Hashtag trends.
+This project explores the relationship between the emotional tone of social media hashtags and user engagement.  
+The main goal is to understand whether positive, neutral, or negative sentiments lead to higher interaction levels through likes and retweets.  
 
-- **Objective:** Compare and visualize hashtag difference between positive and negative.
-- **Domain:** Social Media Analytics
-- **Key Techniques:** Data Inspection, Data Manipulation, Data Cleaning, Tidy, Matplotlib, Seaborn, Data Visualization
+In this analysis, we use a dataset sourced from [Kaggle](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform), which contains approximately 700 social media posts labeled with sentiment categories (*Positive*, *Neutral*, *Negative*).  
+Each post includes engagement metrics, allowing us to compare audience responses across different emotional tones.  
+
+We will:  
+- Review and clean the dataset to ensure consistency and accuracy.  
+- Visualize sentiment distribution and engagement levels using Matplotlib and Seaborn.  
+- Conduct statistical tests such as ANOVA and Linear Regression to identify whether engagement significantly differs by sentiment type.  
+- Interpret results to highlight trends in emotional tone and its effect on audience interaction.  
+
+The findings from this project aim to provide insights into how emotional tone shapes engagement patterns on social media platforms. 
 
 ---
 
@@ -27,8 +38,11 @@ This project explores Positive vs. Negative Hashtag trends.
 
 ## Data
 
-- **Source:** Kaggle: Social Media Sentiments Analysis Dataset (https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset/data)
-- **Description:** Hashtags, Sentiment, Likes, Retweets, User, Timestamp, Text
+The dataset used in this project was sourced from **[Kaggle](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform)**.  
+It is titled *“Sentiment Analysis: Data Processing, Visualization.”*  
+This dataset contains approximately **700 social media posts** collected from multiple platforms and labeled with different emotional sentiments: *Positive*, *Neutral*, and *Negative*.  
+Each post also includes engagement metrics such as the number of *likes* and *retweets*, making it suitable for studying how emotional tone influences audience interaction.  
+
 
 ---
 
@@ -36,21 +50,33 @@ This project explores Positive vs. Negative Hashtag trends.
 
 Analysis was conducted in Python using Jupyter Notebook.
 
-Main Analysis Methods:
-1. Open code/social_media_hashtags.ipynb
-2. Run all cells in order
-    - Load and inspect data set 
-    - Clean Data (Removing unnecessary parts)
-    - Impute missing data
-    - Rename Columns
-    - Create Data Visualization
+Follow the steps below to reproduce the results:  
 
+1. **Explore the Data** – Review the dataset to understand the structure and identify the key sentiment categories (Positive, Neutral, Negative).  
+
+2. **Visualize Sentiment Distribution** – Create bar charts to show the frequency of each sentiment and identify which emotional tones appear most often.  
+
+3. **Analyze Engagement Patterns** – Calculate and compare the average number of likes and retweets for each sentiment to see how emotional tone affects audience response.  
+
+4. **Identify Top and Bottom Hashtags** – Rank hashtags based on total engagement (likes + retweets) to highlight the most and least engaging ones.  
+
+5. **Perform Statistical Testing** –  
+   - Conduct a **one-way ANOVA** to test whether engagement significantly differs among sentiment categories.  
+   - Build a **linear regression model** to determine whether sentiment score predicts engagement levels.  
+
+6. **Interpret the Results** – Summarize findings, noting that positive sentiments generate higher engagement, while acknowledging that other contextual factors also contribute to overall interaction patterns.  
 
 ---
 
-## Results
+## Results  
 
-According to the comparison of montly proportion of days of precipitatin between Seattle and New York City, Seattle has more rainfall compared to New York City.
+The analysis showed that **positive sentiments** made up the largest portion of the dataset (42%) and received the highest engagement, averaging **45 likes** and **20 retweets** per post. Neutral (33%) and negative (25%) posts showed lower interaction levels overall.  
+
+Hashtags such as *#excitement*, *#serenity*, and *#gratitude* ranked among the top for total engagement (over 700 interactions), while *#traffic* and *#struggle* were among the least engaging (below 25 interactions).  
+
+A **one-way ANOVA** test confirmed a significant difference in engagement across sentiment categories (**F = 9.41, p = 9.22 × 10⁻⁵**), and a **regression analysis** indicated that sentiment was a meaningful but limited predictor of engagement (**R² = 0.025, p < 0.001**).  
+
+Overall, these results suggest that positive emotional tone leads to higher audience interaction, though other contextual factors such as timing, topic, or audience reach also influence engagement patterns.  
 
 ---
 
@@ -58,7 +84,7 @@ According to the comparison of montly proportion of days of precipitatin between
 
 - Jimmy Nam - [@Jimmynam0103](https://github.com/Jimmynam0103/social_media_hastag.git)
 - Edwin Okwor - [@kembaoak]
-- Anushka Naidu [@Maddisetty]
+- Anushka Naidu [@anushkanaidu](https://github.com/anushkanaidu)
 
 ---
 
@@ -70,10 +96,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Tools/libraries: Python, Pandas, Numpy, Matplotlib, Seaborn
-- Data Source: NOAA Climate data Online
-- Inspiration: Climate Analysis
+### Tools and Libraries Used:  
+- [Pandas](https://pandas.pydata.org/)  
+- [NumPy](https://numpy.org/)  
+- [Matplotlib](https://matplotlib.org/)  
+- [Seaborn](https://seaborn.pydata.org/)  
+- [Statsmodels](https://www.statsmodels.org/)  
 
----
+### Data Source:  
+- [Kaggle – Analysis for Social Media Platform (by Kaiti Zhao)](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform)  
 
-### Hashtag Project
+### Inspiration and Guidance:  
+- **Seattle University – DATA 5100 (Foundations of Data Science)** project framework.  
+- Course instructor and peers for their valuable feedback and support throughout the project.  
