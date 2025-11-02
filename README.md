@@ -38,7 +38,7 @@ The findings from this project aim to provide insights into how emotional tone s
 
 ## Data
 
-The dataset used in this project was sourced from **[Kaggle](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform)**.  
+The dataset used in this project was sourced from **[Kaggle – Analysis for Social Media Platform](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform)**.  
 It is titled *“Sentiment Analysis: Data Processing, Visualization.”*  
 This dataset contains approximately **700 social media posts** collected from multiple platforms and labeled with different emotional sentiments: *Positive*, *Neutral*, and *Negative*.  
 Each post also includes engagement metrics such as the number of *likes* and *retweets*, making it suitable for studying how emotional tone influences audience interaction.  
@@ -104,7 +104,7 @@ This project is licensed under the **MIT License** – see the full license [her
 - [Statsmodels](https://www.statsmodels.org/)  
 
 ### Data Source:  
-- [Kaggle – Analysis for Social Media Platform (by Kaiti Zhao)](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform)  
+- [Kaggle – Analysis for Social Media Platform](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform)  
 
 ### Inspiration and Guidance:  
 - **Seattle University – DATA 5100 (Foundations of Data Science)** project framework.  
