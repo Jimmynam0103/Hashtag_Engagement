@@ -1,18 +1,17 @@
 # Analyzing Hashtag Sentiments and Engagement on Social Media  
-### Understanding How Emotional Tone Influences Audience Interaction  
+### Understanding How Emotional Tone(sentiment) Influences Audience Engagement on Social Media 
 
-Purpose: This project aims to explore how the emotional tone of social media posts influences audience engagement.  
-By analyzing posts labeled as *Positive*, *Neutral*, and *Negative*, the goal is to determine whether sentiment affects interaction metrics such as *likes* and *retweets*. The findings provide insights into how emotional content shapes user behavior and engagement trends on social media platforms.  
-
+Purpose: This project aims to investigate how the sentiment expressed in a social media posts influences audience engagement.
+By analyzing posts labeled as Positive, Neutral, or Negative, we seek to determine whether sentiment has a measurable impact on interaction metrics such likes and retweets. For simplicity, we combine these metrics into single engagmement variable as our primary response measure. Ultimately, the overarching goal is to provide insights into how emotional tone of a post can inform strategies for improving engagement and optimizing social media content performance.
 ---
 
 ## Project Overview
 
 This project explores the relationship between the emotional tone of social media hashtags and user engagement.  
 The main goal is to understand whether positive, neutral, or negative sentiments lead to higher interaction levels through likes and retweets.  
-
-In this analysis, we use a dataset sourced from [Kaggle](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform), which contains approximately 700 social media posts labeled with sentiment categories (*Positive*, *Neutral*, *Negative*).  
-Each post includes engagement metrics, allowing us to compare audience responses across different emotional tones.  
+### Data
+In this analysis, we use a dataset sourced from [Kaggle](https://www.kaggle.com/code/kaitizhao/analysis-for-social-media-platform), consisting of approximately 700 social media posts labeled with sentiment categories (*Positive*, *Neutral*, *Negative*).  
+Each post includes engagement metrics- specifically likes and retweets-which allows us to evaluate how audience interaction varies depending on emotional tone of post.  
 
 We will:  
 - Review and clean the dataset to ensure consistency and accuracy.  
