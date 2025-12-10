@@ -6,11 +6,15 @@ pandas
 matplotlib
 seaborn
 
-
 # Machine Learning
 scikit-learn
 statsmodels
 
+# NLP and Transformer Models
+torch
+transformers
+tokenizers
+datasets
 
 # Jupyter & Development
 jupyter
