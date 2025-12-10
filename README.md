@@ -1,4 +1,4 @@
-# Sentiment Analysis Project Report
+# Sentiment Analysis Project 
 ## Overview
 This project explores how sentiment in social media posts relates to user engagement. Using a dataset of 717 labeled posts, a fine-tuned DistilBERT model was used to classify each post into Positive, Neutral, or Negative sentiment. The project also examines how these sentiment categories correspond to engagement metrics, specifically likes and retweets, to determine whether emotional tone influences how users interact with content.
 
