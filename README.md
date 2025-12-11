@@ -129,12 +129,20 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 This project was completed as part of the coursework for Seattle University’s DATA 5100: Foundations of Data Science. We would like to acknowledge the guidance provided throughout the course, as well as the collaborative support from peers during the development and refinement of this analysis.
 
 **Tools and Libraries Used**
+Data Handling & Preprocessing
 - Pandas  
-- NumPy  
+- NumPy
+Visualization
 - Matplotlib  
-- Seaborn  
-- Statsmodels  
+- Seaborn
+Machine Learning/Deep Learning
 - HuggingFace Transformers
+- PyTorch
+Model Evaluation
+- Scikit-learn(sklearn)
+Statistical Analysis
+- Statsmodels  
+
 
 We also acknowledge the open-source community for providing the tools and frameworks that made this project reproducible. The insights and feedback received during the course were valuable in shaping both the analytical approach and interpretation of the results.
 
