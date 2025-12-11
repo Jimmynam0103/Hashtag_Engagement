@@ -19,6 +19,7 @@ By comparing engagement across sentiment categories, the project aims to provide
 ```
 ├── data/                 # Raw and processed datasets
 ├── code/                 # Contains Jupyter notebooks and Python scripts
+├── Presentation Deck     # Presentation Slides             
 ├── reports/              # Generated reports and visualizations
 ├── requirements.txt      # Dependencies utilized in this project
 └── README.md             # Project documentation
