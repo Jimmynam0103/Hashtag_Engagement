@@ -22,5 +22,5 @@ notebook
 ipython
 
 # google
-google colab
-google slides 
+google_colab
+google_slides 
