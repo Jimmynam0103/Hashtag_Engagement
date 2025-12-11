@@ -158,9 +158,9 @@ We also acknowledge the open-source community for providing the tools and framew
 These notebooks and projects helped guide parts of our workflow, especially in data preprocessing, visualization ideas, and overall project structure:
 
 - Rafael R. Car — Sentiment Analysis: Data Processing & Visualization
-  https://www.kaggle.com/code/rafaelrcar/sentiment-analysis-data-processing-visualization
+  - https://www.kaggle.com/code/rafaelrcar/sentiment-analysis-data-processing-visualization
 
 - Mohsin Sial — Sentiment Analysis by NLP
-  https://www.kaggle.com/code/mohsinsial/sentiment-analysis-by-nlp
+  - https://www.kaggle.com/code/mohsinsial/sentiment-analysis-by-nlp
 
 ---
