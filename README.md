@@ -33,6 +33,7 @@ The dataset used in this project was sourced from Kaggle (*Sentiment Analysis: D
 - Engagement metrics (likes and retweets)
 
 To ensure consistency, sentiment labels were cleaned, standardized, and grouped into three categories: Positive, Neutral, and Negative. Ambiguous labels were removed, and a total engagement score was created for each post by summing likes and retweets.
+Link: https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset
 
 ---
 
