@@ -132,14 +132,17 @@ This project was completed as part of the coursework for Seattle University’s 
 Data Handling & Preprocessing
 - Pandas  
 - NumPy
+
 Visualization
 - Matplotlib  
 - Seaborn
+
 Machine Learning/Deep Learning
 - HuggingFace Transformers
 - PyTorch
 Model Evaluation
 - Scikit-learn(sklearn)
+
 Statistical Analysis
 - Statsmodels  
 
