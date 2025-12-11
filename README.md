@@ -17,10 +17,10 @@ By comparing engagement across sentiment categories, the project aims to provide
 ## Project Structure
 
 ```
-├── data/                 # Raw and processed data
-├── code/                 # Jupyter notebooks and Python scripts
+├── data/                 # Raw and processed datasets
+├── code/                 # Contains Jupyter notebooks and Python scripts
 ├── reports/              # Generated reports and visualizations
-├── requirements.txt      # Dependencies
+├── requirements.txt      # Dependencies utilized in this project
 └── README.md             # Project documentation
 ```
 ---
