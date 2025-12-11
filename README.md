@@ -141,6 +141,7 @@ Visualization
 Machine Learning/Deep Learning
 - HuggingFace Transformers
 - PyTorch
+
 Model Evaluation
 - Scikit-learn(sklearn)
 
@@ -149,5 +150,17 @@ Statistical Analysis
 
 
 We also acknowledge the open-source community for providing the tools and frameworks that made this project reproducible. The insights and feedback received during the course were valuable in shaping both the analytical approach and interpretation of the results.
+
+---
+
+## References/Inspiration
+
+These notebooks and projects helped guide parts of our workflow, especially in data preprocessing, visualization ideas, and overall project structure:
+
+- Rafael R. Car — Sentiment Analysis: Data Processing & Visualization
+  https://www.kaggle.com/code/rafaelrcar/sentiment-analysis-data-processing-visualization
+
+- Mohsin Sial — Sentiment Analysis by NLP
+  https://www.kaggle.com/code/mohsinsial/sentiment-analysis-by-nlp
 
 ---
