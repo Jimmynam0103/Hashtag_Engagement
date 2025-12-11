@@ -119,7 +119,7 @@ The results indicate that **positive emotional tone is strongly associated with 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jimmynam0103/Hashtag_Engagement/blob/main/License) file for details.
 
 ---
 
